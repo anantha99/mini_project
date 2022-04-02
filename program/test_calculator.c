@@ -31,6 +31,7 @@ void test_division(){
     TEST_ASSERT_EQUAL(2, division(4,2));
     TEST_ASSERT_EQUAL(10, division(20,2));
     TEST_ASSERT_EQUAL(-2, division(-4,2));
+    TEST_ASSERT_EQUAL(2, division(-40,-20));
 }
 
 int main(void) {
